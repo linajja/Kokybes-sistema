@@ -1,5 +1,7 @@
 body{
-background-color: rgb(165, 181, 228);
+background-image: linear-gradient(180deg, rgba(174, 174, 245, 0.39),white);
+background-size: cover;
+background-repeat: no-repeat;
 padding: 10px 30px;
 }
 .header{
@@ -51,6 +53,7 @@ h1{
     font-family: 'Times New Roman', Times, serif;
         font-size: 15px;
         font-style: italic;
+        padding: 10px;
 }
 .btn{
     display: flex;
@@ -85,8 +88,9 @@ a:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: sstart;
+    flex-wrap: wrap;
+    gap:10px;
 }
 .main-pirmyn {
     display: flex;
